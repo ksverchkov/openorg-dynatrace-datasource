@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Dynatrace",
+  "id": "openorg-dynatrace-datasource",
+  "alerting": true,
+  "annotations": true,
+  "backend": true,
+  "logs": true,
+  "metrics": true,
+  "backend": true,
+  "executable": "gpx_dynatrace",
+  "info": {
+    "description": "Dynatrace datasource plugin for Grafana",
+    "author": {
+      "name": "KSverchkov",
+      "url": "https://github.com/ksverchkov"
+    },
+    "keywords": ["datasource", "dynatrace", "openorg"],
+    "logos": {
+      "small": "img/openorg.png",
+      "large": "img/openorg.png"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "includes": [
+    {
+      "name": "System Overview",
+      "path": "dashboards/system-overview.json",
+      "type": "dashboard"
+    }
+  ],
+  "dependencies": {
+    "grafanaDependency": "\u003e=9.5.13",
+    "grafanaVersion": "9.5.13",
+    "plugins": []
+  }
+}
