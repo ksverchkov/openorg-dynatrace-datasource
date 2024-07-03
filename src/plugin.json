@@ -8,7 +8,6 @@
   "backend": true,
   "logs": true,
   "metrics": true,
-  "backend": true,
   "executable": "gpx_dynatrace",
   "info": {
     "description": "Dynatrace datasource plugin for Grafana",

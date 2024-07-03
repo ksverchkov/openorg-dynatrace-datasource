@@ -5,7 +5,7 @@
       "label": "Dynatrace",
       "description": "",
       "type": "datasource",
-      "pluginId": "grafana-dynatrace-datasource",
+      "pluginId": "openorg-dynatrace-datasource",
       "pluginName": "Dynatrace"
     }
   ],
@@ -24,7 +24,7 @@
     },
     {
       "type": "datasource",
-      "id": "grafana-dynatrace-datasource",
+      "id": "openorg-dynatrace-datasource",
       "name": "Dynatrace",
       "version": "3.0.2"
     },

@@ -1,3 +1,5 @@
+![alt](src/img/openorg.png)
+
 # Dynatrace Data Source Plugin for Grafana
 
 This plugin provides a seamless integration between Dynatrace and Grafana, allowing you to visualize Dynatrace metrics directly in your Grafana dashboards.
