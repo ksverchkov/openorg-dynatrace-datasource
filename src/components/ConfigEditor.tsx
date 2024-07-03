@@ -45,7 +45,7 @@ export function ConfigEditor(props: Props) {
 
   return (
     <>
-      <InlineField label="Path" labelWidth={14} interactive tooltip={'Json field returned to frontend'}>
+      <InlineField label="Dynatrace URL" labelWidth={20} interactive tooltip={'Json field returned to frontend'}>
         <Input
           id="config-editor-path"
           onChange={onPathChange}
@@ -54,7 +54,7 @@ export function ConfigEditor(props: Props) {
           width={40}
         />
       </InlineField>
-      <InlineField label="Dynatrace API token" labelWidth={14} interactive tooltip={'Secure json field (backend only)'}>
+      <InlineField label="Dynatrace API token" labelWidth={20} interactive tooltip={'Secure json field (backend only)'}>
         <SecretInput
           required
           id="config-editor-api-key"
